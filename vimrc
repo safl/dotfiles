@@ -30,6 +30,10 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+let g:solarized_termcolors=256
+set t_Co=256
+set background=dark
+colorscheme solarized
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
@@ -119,3 +123,7 @@ set formatoptions+=t colorcolumn=+1 tw=80
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+
+" Display tabs and trailing spaces visually
+set list listchars=tab:»·,trail:·,extends:$,nbsp:=
+
