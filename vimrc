@@ -130,3 +130,7 @@ set list listchars=tab:»·,trail:·,extends:$,nbsp:=
 
 " ================ Taglist ================================
 nmap <F2> :TlistToggle<cr>
+
+" ================ Nerdtree ===============================
+nmap <F3> :NERDTreeToggle<cr>
+
