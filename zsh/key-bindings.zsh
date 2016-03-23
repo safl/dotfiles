@@ -26,3 +26,4 @@ bindkey '^q' backward-delete-word
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+bindkey '^K' clear-screen
