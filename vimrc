@@ -127,3 +127,6 @@ so ~/.yadr/vim/settings.vim
 " Display tabs and trailing spaces visually
 set list listchars=tab:»·,trail:·,extends:$,nbsp:=
 
+
+" ================ Taglist ================================
+nmap <F2> :TlistToggle<cr>
