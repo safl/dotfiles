@@ -117,7 +117,6 @@ set sidescroll=1
 set lazyredraw
 set ttyfast
 
-
 " ================ Wrapping ========================
 set formatoptions+=t colorcolumn=+1 tw=80
 
@@ -127,6 +126,12 @@ so ~/.yadr/vim/settings.vim
 " Display tabs and trailing spaces visually
 set list listchars=tab:»·,trail:·,extends:$,nbsp:=
 
+" ================ yank to clipboard ======================
+set clipboard=unnamedplus
+set clipboard^=unnamed
+
+" ================ Search upwards for tags file ===========
+set tags=tags;/
 
 " ================ Taglist ================================
 nmap <F2> :TlistToggle<cr>
